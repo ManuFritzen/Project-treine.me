@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+nav {
+  max-width: 1005px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 58px;
+
+  
+}
+
+#logo {
+  width: 103px;
+  height: 22px;
+}
+
+ul {
+  width: 267px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+a {
+ text-decoration: none; 
+ color:  #1F1534;
+ font-size: 18px;
+}
+
+#hero {
+  max-width: 1008px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content {
+  width: 489px;
+  height: 331px;
+}
+
+h1 {
+  width: 489px;
+  margin-bottom: 39px;
+  font-size: 49px;
+}
+
+h1 span {
+  color: #89C5CC;
+}
+
+#text {
+font-size: 14px;
+color: #7D7987;
+}
+
+button{
+  width: 179px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #69B99D;
+  border-radius: 4px;
+  border-color: #69B99D;
+  margin-top: 40px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #3b856b;
+}
+
+button img {
+  margin-right: 10px;
+}
+
+button p {
+  color: white;
+}
+
+#image {
+  width: 417px;
+  height: 433.64px;
+}
+
+footer  {
+  /*border: 1px solid black;*/
+  justify-content: center;
+  margin-top: 92.36px;
+ 
+}
+
+footer p {
+  margin: auto;
+  width: 592px;
+  text-align: center;
+
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
